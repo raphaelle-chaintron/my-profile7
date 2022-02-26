@@ -1,0 +1,109 @@
+/*Colors and fonts*/
+body{
+  background: #11324D;
+  color: #FBF8F1;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+  font-size: 17px;
+}
+
+h1,h2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  color: #BFFFF0;              
+  font-weight: 700;
+  font-size: 34px;		
+} 
+
+h2 {
+  color: #9C0F48;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+a {
+  color: #8BDB81;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #072227;
+  text-decoration: none;
+}
+
+
+/*Customs designs and class for 99% of the design*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.container{
+	width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 750px) {
+	.Container{
+		width: 600px;
+	}
+}
+
+.card-blue {
+	background-color: #35858B;
+	padding: 40px;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.3)
+	border-radius: 4px
+	margin: 20px 0px
+}
+.card-blue {
+	margin: 20px 0px;
+}
+
+.img-circle{
+	border-radius: 500%
+}
+
+.btn-blue{
+	background-color: #8BDB81;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px
+}
+
+.btn-blue:hover{
+	background-color: #072227;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+/*Custom design for 1% remaining*/
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
